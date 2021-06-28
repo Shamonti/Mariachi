@@ -1,0 +1,42 @@
+.navbar-default {
+    background-color: #4a1831 !important;
+}
+
+.nav-link {
+    color: #ffd7ad !important;
+}
+
+.navbar-dark .navbar-toggler {
+    margin-left: auto;
+}
+
+.dropdown-menu {
+    background-color: #4a1831 !important;
+}
+
+.dropdown-item {
+    color: #ffd7ad !important;
+}
+
+.banner {
+    background-image: url(images/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    width: 100%;
+}
+
+.heading--main {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    color: #ffd7ad;
+}
+
+.heading--sub {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    color: #ffd7ad;
+}
