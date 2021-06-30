@@ -26,17 +26,196 @@
     width: 100%;
 }
 
+.logo {
+    height: 6.4rem;
+}
+
 .heading--main {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
-    font-size: 4.5rem;
+    font-size: 5.5rem;
     letter-spacing: 2px;
     color: #ffd7ad;
 }
 
-.heading--sub {
+.banner-text {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 1.2rem;
     color: #ffd7ad;
+    hyphens: auto;
 }
+
+.btn-default--light,
+.btn-default--dark:hover {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #ffd7ad;
+    color: #4a1831;
+    border-radius: 2.5rem;
+    padding: .5rem 4rem;
+}
+
+.btn-default--dark:hover {
+    border: 1px solid #4a1831;
+}
+
+.btn-default--light:hover,
+.btn-default--dark {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: #4a1831;
+    color: #ffd7ad;
+    transition: all .3s;
+    border-radius: 2.5rem;
+    padding: .5rem 4rem;
+
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.cta {
+    height: 26.5rem;
+    background-color: #ffd7ad;
+}
+
+.heading--sub {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #4a1831;
+    text-transform: capitalize;
+}
+
+.cta-text,
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #4a1831;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.background {
+    height: 16rem;
+    background-image: url('images/bg3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about {
+    background-color: #ffd7ad;
+}
+
+.offer {
+    padding-top: 10%;
+    padding-bottom: 3%;
+    background-color: #ffd7ad;
+}
+
+.bg-tacos {
+    background: url('images/hand.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    float: right;
+    /* height: 34rem; */
+    width: 100%;
+    padding: 20%;
+    right: 8%;
+}
+
+.offer-text {
+    position: relative;
+    top: -7%;
+    left: 15%;
+}
+
+.offer-text--pink,
+.offer-text--dark,
+.offer-text--blue {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    line-height: 5rem;
+}
+
+.offer-text--pink {
+    font-size: 7.5rem;
+    color: #e63956;
+}
+
+.offer-text--dark {
+    font-size: 4rem;
+    color: #4a1831;
+}
+
+.offer-text--blue {
+    font-size: 5.4rem;
+    color: #6cc5ac;
+}
+
+.offer {
+    padding-top: 10%;
+    padding-bottom: 3%;
+    background-color: #ffd7ad;
+}
+
+
+
+/* PHONE */
+@media only screen and (max-width: 600px) {
+    .heading--main {
+        font-size: 4rem;
+    }
+    .offer-text {
+        position: relative;
+        top: -7%;
+        left: 45%;
+    }
+    .offer-text--pink,
+.offer-text--dark,
+.offer-text--blue {
+    line-height: 3rem;
+}
+    .offer-text--pink {
+        font-size: 4rem;
+    }
+    
+    .offer-text--dark {
+        font-size: 2rem;
+    }
+    
+    .offer-text--blue {
+        font-size: 3.2rem;
+    }
+
+    .bg-tacos {
+        visibility: hidden;
+    }
+}
+
+/* TAB-PORT */
+@media only screen and (max-width: 900px) {
+    .heading--sub {
+        font-size: 2rem;
+    }
+
+    .bg-tacos {
+        visibility: hidden;
+    }
+}
+
+/* TAB-LAND */
+@media only screen and (max-width: 1200px) {}
+
+/* BIG-DESKTOP */
+@media only screen and (min-width: 1800px) {}
